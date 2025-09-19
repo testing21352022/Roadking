@@ -10,6 +10,4 @@ public class Shift_Page extends Baseclass{
 		
 	}
 
-	@Findby(xpath="Test")
-
 }
