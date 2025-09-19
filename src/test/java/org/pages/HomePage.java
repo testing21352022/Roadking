@@ -25,7 +25,8 @@ public class HomePage extends LoginPage {
 	@FindBy(xpath = "//div[@class='tempus-dominus-widget light show']//div[@class='hour'][normalize-space()='10']")
 	public WebElement time;
 	
-	
+	@FindBy(xpath = "")
+	public WebElement date;
 
 	public WebElement getStartTime() {
 		return startTime;
